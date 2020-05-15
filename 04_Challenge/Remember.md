@@ -1,6 +1,6 @@
 # :book: 기억할점
 
-* 특정 박스를 선택과 동시에 `status`를 줄 수 있다.
+* 특정 박스를 선택과 동시에 `state`를 줄 수 있다.
 
 ```css
 .gray-box:nth-child(2):hover {
