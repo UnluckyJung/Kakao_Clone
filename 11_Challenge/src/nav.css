@@ -1,12 +1,13 @@
 .nav {
-  margin-top: 50px;
   padding: 0px 20px;
   height: 80px;
   border-radius: 20px;
-  background: linear-gradient(to bottom, #f0f4fa, white 40%);
+  background-color: red;
+  background: white;
 }
 
 .nav .nav__btns {
+  margin-top: 0px;
   display: flex;
   justify-content: space-around;
 }

@@ -26,6 +26,7 @@ body {
 .phone {
   width: 330px;
   height: 600px;
-  background-color: #f0f4fa;
+  background-color: white;
+  /* #f0f4fa */
   border-radius: 20px;
 }
