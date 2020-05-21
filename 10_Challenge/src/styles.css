@@ -16,7 +16,8 @@ a {
   width: 400px;
   height: 750px;
   border-radius: 70px;
-  box-shadow: 15px 15px 15px 15px #bfc4d1, 0px 0px 2px inset #bfc4d1;
+  box-shadow: inset -6px -6px 15px rgba(145, 160, 180, 0.45),
+    30px 30px 40px rgba(118, 146, 180, 0.18);
   padding: 30px;
 }
 .info {
