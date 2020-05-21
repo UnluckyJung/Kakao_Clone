@@ -1,0 +1,96 @@
+.main {
+  padding: 0px 20px;
+  background: linear-gradient(to bottom, white, #f0f4fa 40%);
+}
+.main .main__header-container {
+}
+.main .main__header {
+}
+
+.main .main__header li {
+  border-radius: 10px 10px 10px 0px;
+  font-family: "Balsamiq Sans";
+  font-weight: 700;
+  font-size: 10px;
+  padding: 5px 10px;
+  color: #4068ff;
+}
+
+.main__title .title {
+  font-family: "Balsamiq Sans";
+  font-weight: 700;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title .fas.fa-heart {
+  display: inline;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  color: red;
+}
+
+.main .main__location {
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.main__location .fas.fa-map-marker-alt {
+  color: #4068ff;
+}
+.main__location span {
+  margin-left: 5px;
+  opacity: 0.6;
+}
+
+.main__title .star-dist {
+  display: flex;
+  margin-top: 10px;
+  font-size: 10px;
+  justify-content: space-between;
+
+  font-family: "Open Sans";
+}
+
+.star-dist .star-dist__star {
+  color: #ffbc00;
+}
+
+.star-dist span {
+  padding-left: 5px;
+  color: black;
+}
+
+.star-dist .dist {
+  opacity: 0.3;
+}
+
+.main .main__content {
+  margin-top: 20px;
+  font-family: "Balsamiq Sans";
+}
+
+.main__content .overview {
+  font-family: "Open Sans";
+  font-size: 10px;
+  opacity: 0.3;
+}
+
+.main__content .content {
+  margin-top: 5px;
+  margin-right: 20px;
+  font-size: 10px;
+  line-height: 20px;
+  opacity: 0.7;
+}
+
+.main__content .Read-More {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #4068ff;
+}

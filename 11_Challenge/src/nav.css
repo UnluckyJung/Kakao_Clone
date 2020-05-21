@@ -1,0 +1,54 @@
+.nav {
+  margin-top: 50px;
+  padding: 0px 20px;
+  height: 80px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #f0f4fa, white 40%);
+}
+
+.nav .nav__btns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav__btns .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  padding-top: 20px;
+  opacity: 0.4;
+}
+
+.btn:nth-of-type(2) {
+  opacity: 1;
+  color: #4068ff;
+  border-top: 2px solid #4068ff;
+}
+
+.mid-btn {
+  z-index: 2;
+}
+.mid-btn .fas.fa-route {
+  margin-top: -20px;
+  font-size: 15px;
+  background-color: #4068ff;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+}
+
+.nav__circle {
+  position: absolute;
+}
+.top-circle {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  left: 120px;
+  bottom: 13px;
+  z-index: 0;
+  background-color: #e4e6ea;
+}

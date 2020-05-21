@@ -1,0 +1,54 @@
+.phone-header {
+  margin-bottom: 0px;
+  padding: 0px 20px;
+  height: 250px;
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255, 0) 30%, white),
+    url("https://images.unsplash.com/photo-1571760247050-0d965d74fc83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
+  background-size: contain;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.phone-header .status-bar {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone-header .func {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.phone-header .pic-container {
+  margin-top: 100px;
+  height: 50px;
+}
+
+.pic-container .pics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.pics .pic {
+  margin-left: 10px;
+  height: 35px;
+  width: 35px;
+  background-image: url("https://images.unsplash.com/photo-1571760247050-0d965d74fc83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
+  background-size: contain;
+  border-radius: 10px;
+}
+
+.pics .last-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  height: 35px;
+  width: 35px;
+  background-color: #4068ff;
+  border-radius: 10px;
+  color: white;
+}
