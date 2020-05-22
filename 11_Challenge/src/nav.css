@@ -38,6 +38,8 @@
   border-radius: 50%;
   padding: 15px;
   color: white;
+  position: relative;
+  top: -10px;
 }
 
 .nav__circle {
@@ -49,7 +51,7 @@
   height: 70px;
   border-radius: 50%;
   left: 110px;
-  bottom: 22px;
+  bottom: 32px;
   z-index: 0;
   background-color: #e4e6ea;
 }
@@ -59,4 +61,5 @@
   height: 10px;
   width: 100px;
   border-top: 2px solid #e4e6ea;
+  position: relative;
 }
