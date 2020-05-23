@@ -70,12 +70,7 @@
 .message {
   display: flex;
   align-items: flex-start;
-  width: 30%;
   margin-bottom: 20px;
-}
-
-.message .message__content {
-  width: 80%;
 }
 
 .incoming-message {
