@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Open Sans";
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.screen {
+  width: 350px;
+  height: 650px;
+  position: relative;
+  border: 10px solid #2699fa;
+  padding: 0px 20px;
+}
+
+.screen::after {
+  background: url("https://ww.namu.la/s/e0abe7c567071fd9a2ad98b3613eece8453a540925f679454d719f9dbb1569cd63992f31d437f38fe1f114c20df689a59beb361937e468a367d2fbe5e367946067726672bc4a939c12a8a966c518a10fdd0d8df28648290fb949ff85f585dfc258da8e211f743726d9fb1ca89e65c2a3");
+  background-size: cover;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-size: 100%;
+  opacity: 0.2;
+  z-index: -1;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+
+.status-bar {
+  font-weight: 800;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-bar .status-bar__clock {
+  margin-left: 10px;
+}
+
+.header {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.6;
+}
+
+.profile {
+  margin-top: 100px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile .profile__image {
+  margin-bottom: 5px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background: url("https://ww.namu.la/s/e0abe7c567071fd9a2ad98b3613eece8453a540925f679454d719f9dbb1569cd63992f31d437f38fe1f114c20df689a59beb361937e468a367d2fbe5e367946067726672bc4a939c12a8a966c518a10fdd0d8df28648290fb949ff85f585dfc258da8e211f743726d9fb1ca89e65c2a3");
+  background-size: cover;
+}
+
+.profile .profile__name {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #2699fa;
+}
+
+.profile .profile__location {
+  margin-bottom: 5px;
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn li {
+  width: 140px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 1px rgba(50, 50, 93, 0.25);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn li:nth-child(1) {
+  background-color: white;
+}
+
+.btn li:nth-child(2) {
+  background-color: #2699fa;
+  color: white;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.counter li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.nav {
+  margin-top: 130px;
+  font-size: 20px;
+}
+
+.nav .nav__icons {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.nav .nav__icon:nth-child(1) {
+  color: #2699fa;
+}
+
+.under-bar {
+  margin: 0px auto;
+  width: 120px;
+  height: 5px;
+  border-bottom: 2px solid gray;
+}
