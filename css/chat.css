@@ -93,6 +93,9 @@
   box-shadow: 0px 5px 5px 1px rgba(50, 50, 93, 0.25);
   padding: 10px 20px;
   border-radius: 20px;
+  display: block;
+  color: white;
+  font-weight: 600;
 }
 
 .incoming-message .message_author {
@@ -104,8 +107,11 @@
 
 .incoming-message .message__bubble {
   border-bottom-left-radius: 0px;
+  color: white;
+  background-image: linear-gradient(to right, #005aa7, #fffde4);
 }
 
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
+  background-image: linear-gradient(to left, #c6ffdd, #fbd786, #f7797d);
 }
