@@ -48,8 +48,12 @@
   outline: none;
 }
 
+.chat__icon {
+  font-size: 18px;
+  transition: opacity 0.5s ease-in-out;
+}
 .chat__write:focus ~ .chat__icon {
-  display: none;
+  opacity: 0;
 }
 
 .chat__icon-left {
