@@ -163,12 +163,12 @@
 .incoming-message .message__bubble {
   border-bottom-left-radius: 0px;
   color: white;
-  background-image: linear-gradient(to right, #005aa7, #fffde4);
+  background-image: linear-gradient(to right, #a3449e, #eed0a2);
 }
 
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
-  background-image: linear-gradient(to left, #c6ffdd, #fbd786, #f7797d);
+  background-image: linear-gradient(to left, #2f4a81, #b7c7eb);
 }
 
 .incoming-message {
