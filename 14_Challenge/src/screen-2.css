@@ -12,11 +12,6 @@
   transition: all 0.5s ease-in-out;
 }
 
-.screen-2 .container:hover {
-  height: 200px;
-  z-index: 1;
-}
-
 .screen-2__game-center-icon {
   background: url("../img/game-center.jpg");
   background-size: cover;
@@ -24,7 +19,7 @@
 }
 
 .screen-2 .pop-up {
-  z-index: 2;
+  z-index: 0;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -33,6 +28,12 @@
   background-color: #224151;
   opacity: 1;
   padding: 15px;
+  transition: opacity 0.5s;
+}
+
+.screen-2 .container:hover {
+  height: 200px;
+  z-index: 1;
 }
 
 .screen-2 .pop-up__text {
