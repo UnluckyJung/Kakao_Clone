@@ -10,7 +10,7 @@
 @import "settings.css";
 @import "chat.css";
 @import "mobile.css";
-
+@import "bori-profile.css";
 * {
   box-sizing: border-box;
 }

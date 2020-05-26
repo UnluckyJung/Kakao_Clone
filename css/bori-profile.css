@@ -1,0 +1,85 @@
+.bori {
+  position: fixed;
+  z-index: -1;
+  padding: 10px 20px;
+
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("../images/bori-background.jpg");
+  background-size: cover;
+}
+
+.bori .header__icon i {
+  margin: 0px 5px;
+}
+
+.profile {
+  position: absolute;
+  left: 0px;
+  top: 40%;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile .profile__image {
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+  border: 1px solid white;
+  background: url("../images/bori.jpg");
+  background-size: cover;
+}
+
+.profile .profile__name {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+}
+
+.profile .profile__comment {
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 1;
+  color: white;
+}
+
+.bori-nav {
+  width: 100%;
+  position: fixed;
+  bottom: 10px;
+  left: 0px;
+  border-top: 1px solid white;
+  padding: 20px;
+}
+
+.bori-nav .bori-nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bori-nav__list li {
+  font-size: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bori-nav__list i {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
