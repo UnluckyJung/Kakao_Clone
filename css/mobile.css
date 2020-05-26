@@ -8,7 +8,7 @@
       rgba(255, 255, 255, 0.3),
       rgba(255, 255, 255, 0.3)
     ),
-    url("/images/dole-background.jpg");
+    url("../images/dole-background.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
